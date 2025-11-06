@@ -6,12 +6,12 @@ Only supports PNG.
 
 ## Libraries & Modules Used
 
-- Rich
+- [Rich](https://github.com/Textualize/rich)
 - qrcode
 - pathlib
-- loguru
-- platformdirs
-- pyfiglet
+- [loguru](https://github.com/Delgan/loguru)
+- [platformdirs](https://github.com/tox-dev/platformdirs)
+- [pyfiglet](https://github.com/pwaller/pyfiglet)
 
 ### How to Install
 
