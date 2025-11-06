@@ -60,8 +60,8 @@ def main():
 
             box_size = int(Prompt.ask("[cyan]Enter box size (default 10)[/cyan]", default=10))
             border = int(Prompt.ask("[cyan]Enter border (default 4)[/cyan]", default=4))
-            foreground = Prompt.ask("[cyan]Enter foreground (default black)[/cyan]", default="black")
-            background = Prompt.ask("[cyan]Enter background (default white)[/cyan]", default="white")
+            foreground = Prompt.ask("[cyan]Enter foreground[/cyan]", default="black")
+            background = Prompt.ask("[cyan]Enter background[/cyan]", default="white")
             code_name = Prompt.ask("[cyan]Name your QR code[/cyan]", default="qr_code")
 
             file_path = config_dir / f"{code_name}.png"
